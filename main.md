@@ -7,7 +7,8 @@ Pada Next.js, struktur file sangat penting untuk pengelolaan dan pengembangan ap
 ### 1. **Top-level Folder**
 Top-level folder di dalam proyek Next.js biasanya berisi folder dan file utama yang digunakan untuk konfigurasi dan penataan aplikasi. Beberapa folder yang umum ditemukan adalah:
 
-- **`pages/`**: Menyimpan file-file halaman aplikasi yang akan diakses oleh pengguna.
+- **`app/ (Jika menggunakan App Router)`**: Menyimpan file-file halaman aplikasi yang akan diakses oleh pengguna.
+- **`pages/ (Jika menggunakan Pages Router)`**: Menyimpan file-file halaman aplikasi yang akan diakses oleh pengguna.
 - **`public/`**: Menyimpan file statis seperti gambar, CSS, dan JavaScript yang dapat diakses langsung oleh browser.
 - **`styles/`**: Folder untuk menyimpan file CSS atau file styling global.
 - **`node_modules/`**: Folder yang berisi dependensi proyek.
