@@ -20,7 +20,7 @@ app/
 ```
 
 ### 2. **Routing Files**
-Sama seperti _Pages Router_, _App Router_ juga memiliki file-file khusus atau spesial di dalam top-level folder `app/`.
+Sama seperti _Pages Router_, _App Router_ juga memiliki file-file khusus atau spesial di dalam top-level folder `app/`. Berikut adalah file-file penting yang harus kita ketahui:
 
 - **`layout.js / layout.tsx`**, yaitu file layout
 - **`page.js / page.tsx`**, yaitu file utama yang pertama kali diakses
